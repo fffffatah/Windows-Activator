@@ -1,19 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Windows_Activator
 {
     public partial class Landing : Form
     {
-        string[] winCommand = new string[] { "windows", "office" };
-        int switchAct = 0;
+        private string[] winCommand = new string[] { "windows", "office" };
+        private int switchAct = 0;
         public Landing()
         {
             InitializeComponent();
